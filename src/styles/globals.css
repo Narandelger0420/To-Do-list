@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vw;
+  width: 100vw;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
+}
+.container {
+  width: 377px;
+  /* height: 290px; */
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.add-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 59px;
+  height: 40px;
+  border: 2px #3c82f6 solid;
+  border-radius: 6px;
+  background-color: #3c82f6;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+.input-1 {
+  width: 280px;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid #e4e4e7;
+  padding-left: 10px;
+}
+
+.input-1:focus {
+  outline: none;
+  border: 2px solid #3498db;
+}
+.button-1 {
+  display: flex;
+  gap: 10px;
+  color: #363636;
+  padding-right: 143px;
+}
+.button-2 {
+  width: 38px;
+  height: 32px;
+  border-radius: 6px;
+
+  background-color: #f3f4f6;
+  font-family: "Inter", sans-serif;
+  color: black;
+  border: none;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.button-2:focus {
+  background-color: #3c82f6;
+  color: white;
+}
+.button-3 {
+  width: 60px;
+  height: 32px;
+  border-radius: 6px;
+  background-color: #f3f4f6;
+  font-family: "Inter", sans-serif;
+  border: none;
+  font-weight: 400;
+  font-size: 12px;
+}
+.button-3:focus {
+  background-color: #3c82f6;
+  color: white;
+}
+.button-4 {
+  width: 87px;
+  height: 32px;
+  border-radius: 6px;
+  background-color: #f3f4f6;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.button-4:focus {
+  background-color: #3c82f6;
+  color: white;
+}
+.p-1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.p-2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #6b7280;
+}
+.p-3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #3b73ed;
+}
+.Power {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding-top: 50px;
+}
+.TaskInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 345px;
+  height: 62px;
+  /* margin-left: auto; */
+  background-color: #f9fafb;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.chekBox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: #ffffff;
+
+  border: 1px #767676 solid;
+}
+
+.chekBox-2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  text-decoration: line-through;
+  border: 1px #767676 solid;
+}
+
+.p-4 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-right: 10px;
+}
+.DeleteButton {
+  font-family: "Inter", sans-serif;
+  color: #ef4444;
+  font-weight: 400;
+  font-size: 14px;
+  width: 67px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: #fef2f2;
+  border: none;
+  /* margin-left: auto; */
+}
+
+.clearContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+}
+
+.clearText {
+  width: 150px;
+  height: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.clearRed {
+  width: 109px;
+  height: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ef4444;
+  border: none;
+  background-color: #ffffff;
+}
